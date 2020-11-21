@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <base href="/app/" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons&display=block"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script type="module" src="../src/router/router.component.js"></script>
+    <script type="module">
+      import '@material/mwc-top-app-bar-fixed';
+      import '@material/mwc-icon-button';
+    </script>
+    <a href="/app">Home</a>
+    <a href="./hello-world">Hello world</a>
+    <a href="./user-profile">Profile</a>
+    <app-router></app-router>
+  </body>
+</html>
